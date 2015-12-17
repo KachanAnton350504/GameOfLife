@@ -1,11 +1,9 @@
 html {
   background: url(/assets/background.jpg);
   background-size: cover;
-  
+  background-color: green;
   
 }
-
-
 
 #header {
     font-size: 3em;
@@ -18,34 +16,33 @@ html {
   border-style: groove;
   border-width: 20px;
   border-color: #afa !important;
-  top: 10%;
   color: #afa !important;
   text-align: center;
+  padding: 2%;
+  font-size: 100%;
+  position: absolute;
   right: 1%;
-  width: 300px;
-  height: 500px;
-  font-size: 20px;
-  position: absolute; 
+  
+  left: 80%; 
+  top: 20%; 
 }
 
 #center {
-  top: 50%; 
-  left: 43%;
   position: absolute;
-  margin-top: -225px;
-  margin-left: -225px; 
-
   border-style: groove;
   border-width: 20px;
   border-color: #afa !important;
   border-collapse:collapse;
+  
+  margin-left: 30%;
+  top:20%;
 }
 
 #left {
   border-style: groove;
   border-width: 20px;
   border-color: #afa !important;
-  width: 200px;
+  width: 20%;
   color: rgb(0, 255, 0);
   top: 20%; 
   left: 2%;  
@@ -53,22 +50,24 @@ html {
 }
 
 button {
-  height: 40px;
+  
   color:#afa !important;
   background-color: black;
-  width: 200px;
+  width: 100%;
   font-size: 20px; 
+  padding: 1%;
 }
 
 input { 
   color:#afa !important;
   background-color: black;
-  font-size: 20px;
-  width: 152px;
+  width: 100%;
+  padding: 1%;
 }
 
 #step {
- width: 166px;
+  width: 100%;
+  padding: 1%;
 }
 
 td {
