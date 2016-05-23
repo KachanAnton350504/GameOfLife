@@ -1,7 +1,30 @@
 Rails.application.routes.draw do
   root to: "index#index"
 
+  get 'index/1'
   get 'index/2'
+  get 'index/3'
+  get 'index/41'
+  get 'index/42'
+  get 'index/43'
+  get 'index/44'
+  get 'index/45'
+  get 'index/46'
+  get 'index/5'
+  get 'index/6'
+  get 'index/7'
+  get 'index/8'
+  get 'index/Content'
+  get 'index/Header'
+  get 'index/home_page'
+  get 'index/home_page1'
+  get 'index/no_name'
+  get 'index/Menu'
+  get 'index/titul'
+
+
+
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
